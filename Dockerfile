@@ -1,6 +1,8 @@
-FROM node
-WORKDIR /app
-COPY . /app
+FROM node:latest
+MAINTAINER Devisaialla
+RUN echo "Trying to build my first application"
+COPY . /var/www
+WORKDIR /var/www
 RUN npm install
-EXPOSE 9981
-CMD ["node","index.js"]
+EXPOSE 3000
+ENTRYPOINT ["npm","start"]
