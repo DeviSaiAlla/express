@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node
 MAINTAINER Devisaialla
 RUN echo "Trying to build my first application"
 COPY . /var/www
