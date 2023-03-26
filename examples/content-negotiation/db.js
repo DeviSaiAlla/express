@@ -2,7 +2,7 @@
 
 var users = [];
 
-users.push({ name: 'Tobi' });
+users.push({ name: 'T' });
 users.push({ name: 'Loki' });
 users.push({ name: 'Jane' });
 
